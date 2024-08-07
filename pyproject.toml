@@ -1,0 +1,13 @@
+[project]
+name = "classcad_speckle"
+version = "0.0.1"
+authors = [{ name = "AWV Informatik AG" }]
+description="ClassCAD Speckle integration"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["awv", "classcad", "cad", "speckle"]
+dependencies = ["json", "specklepy", "numpy"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
